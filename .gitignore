@@ -2,6 +2,6 @@ Thumbs.db
 composer.lock
 .buildpath
 .project
-.settings/
+.settings
 .idea
 *.swp
