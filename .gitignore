@@ -1,9 +1,6 @@
 Thumbs.db
-composer.lock
 .buildpath
 .project
 .settings
-.idea
 *.swp
-/phpunit.integration.xml
-/phpunit.xml
+.idea
