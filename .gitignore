@@ -5,3 +5,5 @@ composer.lock
 .settings
 .idea
 *.swp
+/phpunit.integration.xml
+/phpunit.xml

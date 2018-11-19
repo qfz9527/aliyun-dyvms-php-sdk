@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitee70723fd3132b6d05f0ff016c58b71b
 {
+    public static $files = array (
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'p' => 
         array (
@@ -17,6 +21,7 @@ class ComposerStaticInitee70723fd3132b6d05f0ff016c58b71b
         ),
         'S' => 
         array (
+            'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Component\\Yaml\\' => 23,
         ),
         'D' => 
@@ -34,12 +39,16 @@ class ComposerStaticInitee70723fd3132b6d05f0ff016c58b71b
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Symfony\\Polyfill\\Ctype\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
         'Symfony\\Component\\Yaml\\' => 
         array (
