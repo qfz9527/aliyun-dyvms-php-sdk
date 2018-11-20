@@ -8,12 +8,13 @@
   ],
   "type": "library",
   "license": "Apache-2.0",
-  "homepage": "https://www.aliyun.com/product/vms",
+  "homepage": "https://github.com/qfz9527/aliyun-dyvms-php-sdk",
   "authors": [
     {
-      "name": "Aliyuncs",
-      "email": "developer@aliyun.com",
-      "homepage": "https://www.aliyun.com"
+      "name": "qfz9527",
+      "email": "qfz9527@gmail.com",
+      "homepage": "https://github.com/qfz9527/aliyun-dyvms-php-sdk",
+      "role": "Developer"
     }
   ],
   "require": {
